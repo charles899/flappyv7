@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+canvas {
+    display: block; /* Ensures no extra space around the canvas */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
